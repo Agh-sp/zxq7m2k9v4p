@@ -1,0 +1,11 @@
+{
+    "input": {
+        "mouseSensitivity": 1.0
+    },
+    "window": {
+        "fullscreen": false,
+        "height": 720,
+        "vsync": true,
+        "width": 1280
+    }
+}

@@ -1,6 +1,7 @@
 // main.cpp: initialisation & main loop
 
 #include "cube.h"
+#include "shader.h"
 
 void cleanup(char *msg)         // single program exit point;
 {
@@ -1034,15 +1035,7 @@ VARFP(clockfix, 0, 0, 1, clockreset());
 
 const char *rndmapname()
 {
-    vector<char *> maps;
-    listfiles("packages/maps/official", "cgz", maps);
-    if (maps.length() > 0)
-    {
-        char *map = newstring(maps[rnd(maps.length())]);
-        maps.deletearrays();
-        return map;
-    }
-    else return "";
+    return "br_arena";
 }
 
 #define AUTOSTARTPATH "config" PATHDIVS "autostart" PATHDIVS
@@ -1385,6 +1378,7 @@ int main(int argc, char **argv)
     initlog("gl");
     gl_checkextensions();
     gl_init(screenw, screenh, useddepthbits, usedfsaa);
+    initshaders();
 
     notexture = noworldtexture = textureload("packages/misc/notexture.jpg");
     if(!notexture) fatal("could not find core textures (hint: run AssaultCube from the parent of the bin directory)");
