@@ -1,0 +1,639 @@
+######## start logging: 20261031_10.30.46
+parsing commandline argument 1: "--home=profile"
+Using home directory: profile\
+parsing commandline argument 2: "--init"
+writing to file: profile\clientlog.txt
+init: sdl (2.0.14)
+SDL: compiled version 2.0.14, linked version 2.0.12
+init: net (1.3.6)
+init: world (-(1302))
+init: video: sdl
+init: video: mode
+init: video: misc
+init: gl
+Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+Driver: 4.6.0 NVIDIA 591.86
+init: console
+init: sound
+Audio devices: Generic Software
+Sound: Generic Software / Software (Creative Labs Inc.)
+Driver: 1.1
+init: cfg
+loaded 1 xmaps
+init: models
+init: docs
+init: localconnect
+init: mainloop
+could not read "private/authprivate.cfg"
+map br_arena does not support game mode team deathmatch
+read map packages\maps\br_arena.cgz rev 40 (2 milliseconds)
+Douze (AC-Version) by makkE - layout by stanze
+loaded textures (36 milliseconds)
+loaded mapmodels (16 milliseconds)
+loaded mapsounds (60 milliseconds)
+game mode is "TDM"
+LOG: gltfmodel::load called for packages/models/br_arena.gltf
+gltf: bbox min(-250.0,0.0,-250.0) max(250.0,4.9,250.0)
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+LOG: gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+time remaining: 15 minutes
+resolving hostname packages.cubers.net succeeded (51.79.7.196)
+http head packages.cubers.net:80/updates.txt response time: 975, status: 404, contentlength: 0
+successfully pinged 1 media server, 0 failures, 0 disabled
+starting botmatch..
+unarmed called a vote: load map br_arena in mode BDM for 15 minutes
+vote passed
+read map packages\maps\br_arena.cgz rev 40 (1 milliseconds)
+Douze (AC-Version) by makkE - layout by stanze
+loaded textures (0 milliseconds)
+loaded mapmodels (0 milliseconds)
+loaded mapsounds (0 milliseconds)
+Waypoint file bot\waypoints\br_arena.wpt does not exist
+Starting flood, this may take a while on large maps....
+game mode is "BDM"
+Bot Deathmatch: It's every man and A.I. for themselves! Dismantle those bots!
+LOG: gltfmodel::load called for packages/models/br_arena.gltf
+gltf: bbox min(-250.0,0.0,-250.0) max(250.0,4.9,250.0)
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+LOG: gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+time remaining: 15 minutes
+Reading bot_skill.cfg file... 
+done
+Bot connected: davek
+Bot connected: GDawg
+Bot connected: Honey_Bunny
+Bot connected: New_B
+Bot connected: Sabre
+Bot connected: Rushing_Russian
+Bot connected: Harun_Al-RushIt
+Bot connected: Shootme
+Bot connected: Kaltenberg
+Bot connected: CPU
+Bot connected: Dude
+Bot connected: teh_smex
+Bot connected: CPLD
+Bot connected: Shrike
+Bot connected: Dumbstruck
+Bot connected: b00nkind
+Bot connected: w00t
+Bot connected: XP|TheNameless
+Bot connected: Oldy
+Bot connected: Dodging_Bullet
+Bot connected: Robot
+Bot connected: zaiBan
+Bot connected: Killah
+Bot connected: todesgurke
+Bot connected: MrJoe
+Bot connected: Dead_man
+Bot connected: Corporal_Clegg
+Bot connected: Siro
+Bot connected: Bluesman
+Bot connected: James_Bonk
+Bot connected: General_Surgery
+Bot connected: where_am_i
+Bot connected: Major_Headache
+Bot connected: chibby
+Added 653 wps in 159 milliseconds
+Filtered 0 wps
+Total size: 102.00 Kb
+MrJoe picked off New_B
+CPLD sprayed Kaltenberg
+zaiBan shredded Honey_Bunny
+Oldy peppered Rushing_Russian
+you sprayed XP|TheNameless
+Corporal_Clegg punctured teh_smex
+Dumbstruck sprayed b00nkind
+Dead_man peppered w00t
+Bluesman busted davek
+Killah sprayed Shrike
+where_am_i sprayed Sabre
+chibby busted Dude
+chibby peppered Dodging_Bullet
+Siro peppered zaiBan
+Oldy peppered GDawg
+Siro busted Robot
+Killah sprayed Oldy
+chibby peppered CPLD
+Bluesman shredded Dumbstruck
+you were punctured by todesgurke
+Kaltenberg peppered CPU
+Bluesman shredded chibby
+Shootme shredded Honey_Bunny
+Siro busted Harun_Al-RushIt
+Dead_man peppered Killah
+MrJoe picked off Dead_man
+Kaltenberg peppered todesgurke
+davek peppered teh_smex
+Corporal_Clegg slashed Kaltenberg
+Dodging_Bullet shredded New_B
+GDawg shredded Rushing_Russian
+MrJoe picked off b00nkind
+Bluesman shredded MrJoe
+w00t peppered Shootme
+XP|TheNameless punctured Sabre
+Dodging_Bullet shredded Corporal_Clegg
+Bluesman shredded where_am_i
+Dude peppered zaiBan
+Robot picked off XP|TheNameless
+Oldy punctured Shrike
+Siro splattered General_Surgery
+Major_Headache picked off Dumbstruck
+davek peppered Dude
+davek peppered Robot
+Dead_man sprayed davek
+Oldy busted James_Bonk
+Harun_Al-RushIt peppered Honey_Bunny
+Major_Headache picked off CPU
+Siro peppered Kaltenberg
+where_am_i punctured GDawg
+Dead_man sprayed w00t
+Oldy punctured CPLD
+Rushing_Russian sprayed todesgurke
+Corporal_Clegg sprayed Rushing_Russian
+Dead_man sprayed New_B
+Major_Headache picked off zaiBan
+Dumbstruck sprayed MrJoe
+chibby peppered Harun_Al-RushIt
+Corporal_Clegg sprayed chibby
+Shootme shredded Dude
+Killah busted where_am_i
+XP|TheNameless shredded Major_Headache
+Honey_Bunny punctured Shrike
+Corporal_Clegg sprayed Dead_man
+Siro peppered davek
+Dumbstruck sprayed Killah
+Dumbstruck sprayed Corporal_Clegg
+Shootme shredded Siro
+Honey_Bunny busted teh_smex
+Bluesman slashed Honey_Bunny
+GDawg picked off Sabre
+CPLD shredded Robot
+Dodging_Bullet shredded GDawg
+zaiBan shredded Kaltenberg
+chibby sprayed New_B
+MrJoe picked off Rushing_Russian
+chibby sprayed CPLD
+Bluesman busted Dumbstruck
+Shootme shredded General_Surgery
+b00nkind picked off CPU
+XP|TheNameless shredded Shootme
+MrJoe picked off b00nkind
+Dead_man picked off davek
+Dude busted Dodging_Bullet
+w00t shredded Shrike
+Siro peppered Harun_Al-RushIt
+Dude shredded Major_Headache
+Honey_Bunny shredded w00t
+Robot sprayed Killah
+James_Bonk sprayed MrJoe
+Dead_man picked off Honey_Bunny
+Bluesman busted New_B
+Siro peppered Robot
+Dead_man picked off Kaltenberg
+Dumbstruck picked off GDawg
+Corporal_Clegg busted Rushing_Russian
+chibby sprayed James_Bonk
+Shootme peppered todesgurke
+Dude shredded XP|TheNameless
+Sabre busted where_am_i
+chibby sprayed CPLD
+CPU busted Oldy
+davek shredded teh_smex
+Dumbstruck picked off CPU
+chibby sprayed Bluesman
+General_Surgery shredded Harun_Al-RushIt
+b00nkind peppered davek
+Shrike slashed Sabre
+w00t sprayed General_Surgery
+Shootme peppered Dumbstruck
+Honey_Bunny shredded Shootme
+Dead_man picked off Dude
+Corporal_Clegg busted Siro
+Rushing_Russian picked off Corporal_Clegg
+w00t slashed New_B
+Honey_Bunny slashed chibby
+James_Bonk busted b00nkind
+w00t sprayed Kaltenberg
+GDawg sprayed Honey_Bunny
+Major_Headache peppered MrJoe
+CPLD peppered GDawg
+CPU peppered Dodging_Bullet
+w00t slashed Shrike
+James_Bonk peppered todesgurke
+Dead_man picked off CPLD
+davek shredded Sabre
+Dumbstruck shredded Rushing_Russian
+Oldy picked off davek
+chibby sprayed Harun_Al-RushIt
+zaiBan shredded where_am_i
+Bluesman shredded Killah
+Dead_man picked off Major_Headache
+chibby sprayed CPU
+Dude peppered Shootme
+Bluesman shredded Honey_Bunny
+Oldy picked off Corporal_Clegg
+James_Bonk peppered Dead_man
+todesgurke busted Kaltenberg
+teh_smex punctured Oldy
+Dumbstruck shredded New_B
+Shrike slashed GDawg
+Dumbstruck shredded General_Surgery
+davek punctured Dumbstruck
+Shrike picked off Dodging_Bullet
+Major_Headache peppered Dude
+todesgurke shredded Sabre
+Shrike busted b00nkind
+zaiBan shredded CPLD
+XP|TheNameless slashed MrJoe
+Harun_Al-RushIt picked off Rushing_Russian
+Major_Headache peppered James_Bonk
+zaiBan shredded chibby
+Bluesman shredded Killah
+Shrike picked off w00t
+Siro picked off CPU
+New_B shredded Oldy
+Shootme shredded Harun_Al-RushIt
+Corporal_Clegg slashed Shrike
+Honey_Bunny shredded GDawg
+Corporal_Clegg peppered Robot
+davek punctured New_B
+Honey_Bunny shredded zaiBan
+Major_Headache peppered Shootme
+Honey_Bunny shredded Siro
+Corporal_Clegg peppered davek
+Dude splattered where_am_i
+CPLD shredded Kaltenberg
+Major_Headache peppered Honey_Bunny
+chibby peppered Dead_man
+time remaining: 14 minutes
+Dude peppered Sabre
+James_Bonk busted XP|TheNameless
+chibby peppered Dumbstruck
+CPU picked off Dude
+New_B peppered b00nkind
+Rushing_Russian sprayed todesgurke
+CPLD shredded GDawg
+Killah picked off CPU
+davek peppered New_B
+General_Surgery punctured teh_smex
+Oldy peppered Corporal_Clegg
+Shrike busted Rushing_Russian
+chibby peppered Harun_Al-RushIt
+davek peppered Oldy
+Major_Headache peppered CPLD
+Honey_Bunny peppered davek
+zaiBan picked off Shrike
+chibby peppered Robot
+Kaltenberg shredded General_Surgery
+MrJoe busted Dodging_Bullet
+Siro picked off w00t
+Killah picked off Honey_Bunny
+Kaltenberg shredded Bluesman
+GDawg sprayed Sabre
+Shootme punctured chibby
+b00nkind shredded GDawg
+Dude peppered Dumbstruck
+Siro picked off Killah
+Rushing_Russian splattered Shootme
+where_am_i busted Dude
+CPU peppered Siro
+CPLD shredded zaiBan
+Rushing_Russian peppered Harun_Al-RushIt
+where_am_i picked off New_B
+Oldy shredded b00nkind
+CPU peppered Robot
+CPLD shredded where_am_i
+Dodging_Bullet picked off Oldy
+Rushing_Russian peppered Honey_Bunny
+Bluesman peppered w00t
+Dead_man picked off Major_Headache
+Kaltenberg shredded General_Surgery
+Dodging_Bullet picked off CPU
+todesgurke sprayed Rushing_Russian
+Sabre picked off CPLD
+Kaltenberg shredded teh_smex
+Bluesman peppered GDawg
+Shrike sprayed Sabre
+Dodging_Bullet picked off Shrike
+Dodging_Bullet picked off XP|TheNameless
+Corporal_Clegg shredded Kaltenberg
+Harun_Al-RushIt peppered Shootme
+Bluesman peppered Dead_man
+todesgurke sprayed Dude
+Bluesman peppered Dodging_Bullet
+Siro picked off Corporal_Clegg
+where_am_i picked off Harun_Al-RushIt
+Oldy sprayed zaiBan
+Honey_Bunny peppered Oldy
+Robot slashed New_B
+CPU punctured todesgurke
+Dumbstruck picked off b00nkind
+Robot peppered Honey_Bunny
+davek punctured James_Bonk
+where_am_i gibbed Major_Headache
+Shootme shredded davek
+Robot peppered CPU
+Dumbstruck picked off Shootme
+Killah busted CPLD
+Dude shredded Sabre
+General_Surgery peppered GDawg
+w00t peppered Rushing_Russian
+Shrike peppered Killah
+XP|TheNameless peppered Shrike
+zaiBan shredded XP|TheNameless
+Dodging_Bullet peppered Robot
+zaiBan shredded New_B
+General_Surgery peppered teh_smex
+Honey_Bunny sprayed Dude
+Honey_Bunny sprayed Oldy
+zaiBan shredded Kaltenberg
+Major_Headache picked off w00t
+where_am_i picked off zaiBan
+davek shredded Dumbstruck
+Bluesman peppered Dodging_Bullet
+GDawg sprayed Harun_Al-RushIt
+James_Bonk punctured GDawg
+Killah shredded Sabre
+Dead_man peppered CPLD
+Major_Headache picked off Shootme
+Siro picked off MrJoe
+Shrike shredded Rushing_Russian
+chibby shredded Bluesman
+chibby shredded Honey_Bunny
+Corporal_Clegg slashed Killah
+Dead_man peppered chibby
+where_am_i picked off New_B
+XP|TheNameless punctured davek
+w00t shredded Robot
+CPLD sprayed Shrike
+GDawg sprayed Kaltenberg
+Major_Headache picked off CPU
+Rushing_Russian peppered Oldy
+zaiBan picked off Sabre
+CPLD sprayed Harun_Al-RushIt
+chibby picked off Rushing_Russian
+MrJoe punctured GDawg
+Shootme sprayed CPLD
+General_Surgery peppered Honey_Bunny
+teh_smex sprayed zaiBan
+w00t busted Major_Headache
+Dodging_Bullet picked off Shootme
+Dumbstruck peppered b00nkind
+Siro picked off Dumbstruck
+teh_smex sprayed Corporal_Clegg
+Dodging_Bullet busted w00t
+James_Bonk busted General_Surgery
+Robot sprayed chibby
+Shrike shredded davek
+Dodging_Bullet busted XP|TheNameless
+Dead_man peppered Sabre
+Killah picked off Harun_Al-RushIt
+Honey_Bunny punctured Kaltenberg
+Rushing_Russian shredded todesgurke
+Robot sprayed CPU
+Bluesman shredded teh_smex
+Siro picked off Dodging_Bullet
+Oldy peppered Bluesman
+CPLD peppered New_B
+Killah picked off Robot
+w00t shredded CPLD
+b00nkind punctured Shootme
+Major_Headache shredded Oldy
+w00t shredded davek
+chibby sprayed Killah
+General_Surgery picked off GDawg
+Shrike shredded Dumbstruck
+Siro picked off Rushing_Russian
+Harun_Al-RushIt peppered Sabre
+Siro picked off Honey_Bunny
+Bluesman sprayed Kaltenberg
+Dodging_Bullet sprayed XP|TheNameless
+chibby sprayed MrJoe
+Dodging_Bullet sprayed Harun_Al-RushIt
+Dead_man peppered chibby
+General_Surgery picked off CPLD
+Bluesman sprayed New_B
+zaiBan picked off Corporal_Clegg
+todesgurke sprayed Shrike
+Siro slashed Oldy
+Shootme punctured GDawg
+Dead_man peppered Shootme
+time remaining: 13 minutes
+James_Bonk busted Dead_man
+Dumbstruck punctured zaiBan
+Killah shredded CPU
+todesgurke sprayed Honey_Bunny
+Kaltenberg punctured w00t
+Major_Headache shredded Kaltenberg
+Killah shredded James_Bonk
+Corporal_Clegg splattered Harun_Al-RushIt
+Oldy busted General_Surgery
+Dodging_Bullet sprayed Siro
+Corporal_Clegg peppered Major_Headache
+Shootme picked off davek
+Shrike shredded Shootme
+XP|TheNameless picked off GDawg
+Shrike shredded New_B
+Dumbstruck punctured todesgurke
+Honey_Bunny shredded Rushing_Russian
+XP|TheNameless picked off w00t
+Harun_Al-RushIt shredded Sabre
+James_Bonk shredded teh_smex
+MrJoe sprayed Dodging_Bullet
+Dumbstruck punctured Shrike
+Oldy peppered Dude
+Oldy peppered where_am_i
+MrJoe sprayed CPU
+XP|TheNameless picked off Honey_Bunny
+James_Bonk shredded CPLD
+Kaltenberg splattered Bluesman
+General_Surgery peppered b00nkind
+Siro punctured Kaltenberg
+James_Bonk shredded zaiBan
+Corporal_Clegg peppered New_B
+XP|TheNameless picked off Killah
+Robot shredded Oldy
+General_Surgery peppered Shootme
+w00t punctured XP|TheNameless
+General_Surgery peppered Dumbstruck
+davek busted MrJoe
+Corporal_Clegg peppered Dead_man
+teh_smex shredded Harun_Al-RushIt
+General_Surgery peppered Shrike
+CPLD sprayed davek
+Rushing_Russian peppered Siro
+GDawg busted Robot
+General_Surgery peppered teh_smex
+b00nkind shredded GDawg
+Corporal_Clegg peppered Honey_Bunny
+where_am_i picked off Rushing_Russian
+James_Bonk shredded b00nkind
+Shootme shredded Sabre
+Shootme busted Corporal_Clegg
+Bluesman picked off Kaltenberg
+New_B sprayed CPU
+where_am_i picked off Shootme
+Oldy slashed w00t
+Killah suicided
+MrJoe peppered New_B
+Robot peppered XP|TheNameless
+Siro slashed Dodging_Bullet
+Major_Headache shredded CPLD
+General_Surgery peppered GDawg
+todesgurke busted Bluesman
+Oldy picked off Harun_Al-RushIt
+Rushing_Russian shredded Dude
+teh_smex peppered Shrike
+Dead_man busted teh_smex
+b00nkind shredded todesgurke
+Major_Headache shredded b00nkind
+Sabre peppered Robot
+Shootme picked off Sabre
+MrJoe peppered where_am_i
+General_Surgery peppered James_Bonk
+CPU sprayed MrJoe
+Dumbstruck punctured CPU
+Oldy picked off Honey_Bunny
+Dead_man punctured davek
+Kaltenberg peppered Rushing_Russian
+Oldy picked off Siro
+chibby picked off Dodging_Bullet
+New_B shredded zaiBan
+Kaltenberg peppered Shootme
+Major_Headache busted New_B
+Harun_Al-RushIt peppered GDawg
+Kaltenberg splattered Shrike
+teh_smex peppered Harun_Al-RushIt
+Dude sprayed CPLD
+Sabre picked off Kaltenberg
+Major_Headache busted Dude
+teh_smex peppered Bluesman
+where_am_i busted Major_Headache
+chibby picked off todesgurke
+Corporal_Clegg busted Sabre
+zaiBan peppered davek
+Siro picked off Dumbstruck
+chibby picked off Rushing_Russian
+Robot sprayed Killah
+New_B picked off Honey_Bunny
+Shrike punctured GDawg
+Oldy picked off b00nkind
+Shootme shredded CPU
+Shootme shredded Harun_Al-RushIt
+General_Surgery peppered New_B
+Siro picked off chibby
+Shootme shredded Kaltenberg
+Shootme shredded teh_smex
+Dude peppered w00t
+Corporal_Clegg busted Shootme
+General_Surgery slashed XP|TheNameless
+Dude peppered Dodging_Bullet
+Sabre peppered Dude
+Robot sprayed zaiBan
+MrJoe punctured Siro
+Dead_man punctured davek
+Shrike punctured Sabre
+where_am_i punctured CPLD
+Robot sprayed where_am_i
+James_Bonk sprayed Shrike
+CPU peppered Dumbstruck
+Rushing_Russian picked off CPU
+Oldy picked off GDawg
+Honey_Bunny busted Harun_Al-RushIt
+Shootme picked off Rushing_Russian
+todesgurke picked off b00nkind
+teh_smex sprayed New_B
+James_Bonk sprayed todesgurke
+XP|TheNameless picked off James_Bonk
+General_Surgery peppered Kaltenberg
+teh_smex sprayed Honey_Bunny
+Robot sprayed teh_smex
+Dodging_Bullet peppered General_Surgery
+Siro peppered MrJoe
+davek busted w00t
+XP|TheNameless busted CPLD
+XP|TheNameless picked off Oldy
+zaiBan picked off Killah
+Rushing_Russian peppered Major_Headache
+Dodging_Bullet peppered Robot
+zaiBan picked off Shrike
+Dumbstruck punctured Sabre
+Dead_man punctured New_B
+Bluesman sprayed XP|TheNameless
+Shootme picked off GDawg
+todesgurke peppered Dude
+Dodging_Bullet peppered Kaltenberg
+Rushing_Russian peppered Dumbstruck
+Bluesman sprayed Honey_Bunny
+James_Bonk peppered CPU
+Dead_man punctured Dodging_Bullet
+Rushing_Russian suicided
+MrJoe shredded Corporal_Clegg
+Bluesman sprayed Shootme
+where_am_i punctured teh_smex
+General_Surgery busted b00nkind
+James_Bonk peppered w00t
+XP|TheNameless peppered CPLD
+Bluesman gibbed Siro
+Dumbstruck punctured Harun_Al-RushIt
+todesgurke peppered Sabre
+Robot shredded davek
+XP|TheNameless peppered Kaltenberg
+time remaining: 12 minutes
+zaiBan picked off Bluesman
+Oldy peppered zaiBan
+New_B picked off GDawg
+Rushing_Russian sprayed Dumbstruck
+Shootme slashed New_B
+Corporal_Clegg punctured CPU
+Dude punctured Shrike
+Dodging_Bullet shredded XP|TheNameless
+chibby busted James_Bonk
+Shootme peppered Honey_Bunny
+Rushing_Russian sprayed General_Surgery
+Major_Headache picked off Rushing_Russian
+CPLD punctured Oldy
+todesgurke peppered Shootme
+Sabre picked off CPLD
+writing to file: profile\config\init.cfg
+writing to file: profile\config\servers.cfg
+writing to file: profile\config\pcksources.cfg
+writing to file: profile\config\saved.cfg
+writing to file: profile\config\history
+writing to file: profile\config\mapmodelattributes.cfg
+writing to file: profile\private\entropy.dat
+writing to file: profile\mapediting\xmaps\(backup)gameend.xmap
+bot davek disconnected
+bot GDawg disconnected
+bot Honey_Bunny disconnected
+bot New_B disconnected
+bot Sabre disconnected
+bot Rushing_Russian disconnected
+bot Harun_Al-RushIt disconnected
+bot Shootme disconnected
+bot Kaltenberg disconnected
+bot CPU disconnected
+bot Dude disconnected
+bot teh_smex disconnected
+bot CPLD disconnected
+bot Shrike disconnected
+bot Dumbstruck disconnected
+bot b00nkind disconnected
+bot w00t disconnected
+bot XP|TheNameless disconnected
+bot Oldy disconnected
+bot Dodging_Bullet disconnected
+bot Robot disconnected
+bot zaiBan disconnected
+bot Killah disconnected
+bot todesgurke disconnected
+bot MrJoe disconnected
+bot Dead_man disconnected
+bot Corporal_Clegg disconnected
+bot Siro disconnected
+bot Bluesman disconnected
+bot James_Bonk disconnected
+bot General_Surgery disconnected
+bot where_am_i disconnected
+bot Major_Headache disconnected
+bot chibby disconnected

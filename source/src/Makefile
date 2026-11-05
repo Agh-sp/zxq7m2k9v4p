@@ -38,7 +38,7 @@ ifneq (,$(findstring clang,$(CXX)))
 	override CXXFLAGS+= -Wall -fsigned-char
 else
 	CXXFLAGS= -O3 -fomit-frame-pointer
-	override CXXFLAGS+= -Wall -fsigned-char -ffast-math -rdynamic -Wno-format-zero-length
+	override CXXFLAGS+= -Wall -fsigned-char -ffast-math -Wno-format-zero-length
 	ifeq "$(shell expr 'gcc -dumpversion' \>= 8)" "1"
 		override CXXFLAGS+= -Wno-stringop-truncation
 	endif
@@ -89,6 +89,9 @@ CLIENT_OBJS= \
 	rendergl.o \
 	renderhud.o \
 	rendermodel.o \
+	gltfmodel.o \
+	shader.o \
+	debuglog.o \
 	renderparticles.o \
 	rendertext.o \
 	rndmap.o \

@@ -8,7 +8,7 @@ int stenciling = 0;
 
 VAR(shadowclip, 0, 1, 1);
 VAR(shadowtile, 0, 1, 1);
-VAR(shadowcasters, 1, 0, 0);
+VAR(shadowcasters, 1, 0, 2); // 0=disabled, 1=stencil, 2=pcf post-processing
 
 #define SHADOWROWS 64
 #define SHADOWCOLUMNS 32

@@ -1,6 +1,7 @@
 // entities.cpp: map entity related functions (pickup etc.)
 
 #include "cube.h"
+#include "gltfmodel.h"
 
 VARP(showclips, 0, 1, 1);
 VARP(showmodelclipping, 0, 0, 1);
@@ -109,6 +110,10 @@ void rendermapmodels()
             if(!mmi) continue;
             rendermodel(mmi->name, ANIM_MAPMODEL|ANIM_LOOP, e.attr4, 0, vec(e.x, e.y, S(e.x, e.y)->floor + mmi->zoff + float(e.attr3) / ENTSCALE5), e.attr6, float(e.attr1) / ENTSCALE10, float(e.attr5) / ENTSCALE10, 10.0f, 0, NULL, NULL, mmi->scale);
         }
+    }
+    if (gltfmapmodel)
+    {
+        gltfmapmodel->render(ANIM_MAPMODEL|ANIM_LOOP, 0, 100.0f, 0, vec(0,0,0), 0, 0, 0, NULL, NULL, 1.0f);
     }
 }
 

@@ -1,6 +1,7 @@
 // client processing of the incoming network stream
 
 #include "cube.h"
+#include "gltfmodel.h"
 #include "bot/bot.h"
 
 VARP(networkdebug, 0, 0, 1);
@@ -42,10 +43,16 @@ bool changemapserv(char *name, int mode, int download, int revision)        // f
     if(m_coop)
     {
         if(!name[0] || load_world(name) < 0) empty_world(0, true);
+        char gltfpath[512];
+        snprintf(gltfpath, sizeof(gltfpath), "packages/models/%s/scene.gltf", name);
+        if (fileexists(gltfpath, "r")) loadgltfmap(gltfpath);
         return true;
     }
     else if(player1->state==CS_EDITING) { /*conoutf("SANITY drop from EDITING");*/ toggleedit(true); } // fix stuck-in-editmode bug
     bool loaded = load_world(name) >= 0;
+    char gltfpath[512];
+    snprintf(gltfpath, sizeof(gltfpath), "packages/models/%s/scene.gltf", name);
+    if (fileexists(gltfpath, "r")) loadgltfmap(gltfpath);
     if(disconnectonmaperror && incompatiblemap && multiplayer(NULL)) trydisconnect();
     if(download > 0)
     {

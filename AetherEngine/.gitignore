@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+out/
+bin/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.a
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Logs
+*.log
+logs/
+
+# Settings (user-specific)
+settings.json
+
+# OS
+.DS_Store
+Thumbs.db

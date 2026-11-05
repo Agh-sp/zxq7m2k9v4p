@@ -533,7 +533,7 @@ void movelocalplayer()
 }
 
 // use physics to extrapolate player position
-VARP(smoothmove, 0, 75, 100);
+VARP(smoothmove, 0, 100, 100);
 VARP(smoothdist, 0, 8, 16);
 
 void predictplayer(playerent *d, bool move)

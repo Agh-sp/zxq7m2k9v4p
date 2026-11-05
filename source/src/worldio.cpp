@@ -1,6 +1,8 @@
 // worldio.cpp: loading & saving of maps and savegames
 
 #include "cube.h"
+#include "gltfmodel.h"
+#include "debuglog.h"
 
 #define DEBUGCOND (worldiodebug==1)
 VARP(worldiodebug, 0, 0, 1);
@@ -1179,6 +1181,22 @@ int load_world(char *mname)        // still supports all map formats that have e
     alias("gametimestart", startmillis, true);
     startmap(mname);
     res |= mapconfigerror;
+    // Load glTF scene if available for this map
+    char gltfpath[512];
+    snprintf(gltfpath, sizeof(gltfpath), "packages/models/%s.gltf", mname);
+    if (!fileexists(gltfpath, "r"))
+    {
+        snprintf(gltfpath, sizeof(gltfpath), "packages/models/%s/scene.gltf", mname);
+    }
+    if (fileexists(gltfpath, "r"))
+    {
+        if (gltfmapmodel) { delete gltfmapmodel; gltfmapmodel = NULL; }
+        gltfmapmodel = loadgltfmodel(gltfpath);
+    }
+    else
+    {
+        if (gltfmapmodel) { delete gltfmapmodel; gltfmapmodel = NULL; }
+    }
     if(res) conoutf("\f3unresolved problems occurred during load_world(), warning: 0x%x", res);
     return res; // negative: error (no map loaded), zero: no problem, positive: some problems (bitmask value)
 }

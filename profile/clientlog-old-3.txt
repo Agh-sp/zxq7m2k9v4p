@@ -1,0 +1,1177 @@
+######## start logging: 20261031_10.22.44
+parsing commandline argument 1: "--home=profile"
+Using home directory: profile\
+parsing commandline argument 2: "--init"
+writing to file: profile\clientlog.txt
+init: sdl (2.0.14)
+SDL: compiled version 2.0.14, linked version 2.0.12
+init: net (1.3.6)
+init: world (-(1302))
+init: video: sdl
+init: video: mode
+init: video: misc
+init: gl
+Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+Driver: 4.6.0 NVIDIA 591.86
+init: console
+init: sound
+Audio devices: Generic Software
+Sound: Generic Software / Software (Creative Labs Inc.)
+Driver: 1.1
+init: cfg
+init: models
+init: docs
+init: localconnect
+init: mainloop
+could not read "private/authprivate.cfg"
+map br_arena does not support game mode team deathmatch
+read map packages\maps\br_arena.cgz rev 40 (1 milliseconds)
+Douze (AC-Version) by makkE - layout by stanze
+loaded textures (86 milliseconds)
+loaded mapmodels (106 milliseconds)
+loaded mapsounds (72 milliseconds)
+game mode is "TDM"
+LOG: gltfmodel::load called for packages/models/br_arena.gltf
+gltf: bbox min(-250.0,0.0,-250.0) max(250.0,4.9,250.0)
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+LOG: gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+time remaining: 15 minutes
+resolving hostname packages.cubers.net succeeded (51.79.7.196)
+http head packages.cubers.net:80/updates.txt response time: 838, status: 404, contentlength: 0
+successfully pinged 1 media server, 0 failures, 0 disabled
+starting botmatch..
+unarmed called a vote: load map br_arena in mode BDM for 15 minutes
+vote passed
+read map packages\maps\br_arena.cgz rev 40 (1 milliseconds)
+Douze (AC-Version) by makkE - layout by stanze
+loaded textures (0 milliseconds)
+loaded mapmodels (0 milliseconds)
+loaded mapsounds (0 milliseconds)
+Waypoint file bot\waypoints\br_arena.wpt does not exist
+Starting flood, this may take a while on large maps....
+game mode is "BDM"
+Bot Deathmatch: It's every man and A.I. for themselves! Dismantle those bots!
+LOG: gltfmodel::load called for packages/models/br_arena.gltf
+gltf: bbox min(-250.0,0.0,-250.0) max(250.0,4.9,250.0)
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+LOG: gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+time remaining: 15 minutes
+Reading bot_skill.cfg file... 
+done
+Bot connected: Dodging_Bullet
+Bot connected: teh_smex
+Bot connected: trm
+Bot connected: teh_masterer
+Bot connected: MrJoe
+Bot connected: Die_Hard
+Bot connected: Coward
+Bot connected: Dude
+Bot connected: MuHaHaHa
+Bot connected: Harun_Al-RushIt
+Bot connected: Dr00l
+Bot connected: PMB
+Bot connected: Shootme
+Bot connected: Bad_boy
+Bot connected: ThE_MarD
+Bot connected: Count_Draculol
+Bot connected: FPGA
+Bot connected: Aristotles
+Bot connected: Corporal_Clegg
+Bot connected: Private_Parts
+Bot connected: 0x0DEFACED
+Bot connected: Captain_Shrimps
+Bot connected: CPLD
+Bot connected: t3h_p@!|\|
+Bot connected: Carlsberg
+Bot connected: Dumb
+Bot connected: Johnny_Crash
+Bot connected: luggable
+Bot connected: Dragon
+Bot connected: Coolbot
+Bot connected: stefanhendriks
+Bot connected: Amstel
+Bot connected: Staropramen
+Bot connected: Lapin_Kulta
+Added 653 wps in 161 milliseconds
+Filtered 0 wps
+Total size: 102.00 Kb
+stefanhendriks peppered Dodging_Bullet
+Lapin_Kulta peppered Coward
+Captain_Shrimps peppered teh_smex
+FPGA picked off trm
+Coolbot sprayed teh_masterer
+Staropramen sprayed MrJoe
+Dude slashed Bad_boy
+Captain_Shrimps peppered MuHaHaHa
+Aristotles shredded Harun_Al-RushIt
+Staropramen sprayed Dr00l
+you sprayed Captain_Shrimps
+Lapin_Kulta peppered Shootme
+FPGA slashed ThE_MarD
+CPLD picked off Die_Hard
+Aristotles shredded CPLD
+luggable picked off FPGA
+Corporal_Clegg punctured Lapin_Kulta
+Johnny_Crash busted Aristotles
+stefanhendriks peppered Dude
+Johnny_Crash punctured t3h_p@!|\|
+Carlsberg picked off Count_Draculol
+Amstel peppered Johnny_Crash
+Corporal_Clegg punctured stefanhendriks
+Coolbot sprayed Dragon
+teh_smex busted PMB
+teh_smex picked off 0x0DEFACED
+Coward peppered Dumb
+Private_Parts sprayed luggable
+Coolbot sprayed Dodging_Bullet
+MrJoe sprayed Coward
+Coolbot sprayed Corporal_Clegg
+you sprayed teh_smex
+CPLD punctured Private_Parts
+Harun_Al-RushIt punctured trm
+Coolbot sprayed Die_Hard
+Aristotles peppered Dr00l
+teh_masterer peppered MuHaHaHa
+stefanhendriks punctured teh_masterer
+you sprayed Aristotles
+Amstel peppered Dude
+Lapin_Kulta sprayed CPLD
+Johnny_Crash peppered Captain_Shrimps
+t3h_p@!|\| picked off FPGA
+Dodging_Bullet peppered Shootme
+Coolbot sprayed PMB
+Dragon punctured MrJoe
+Coolbot sprayed Dodging_Bullet
+Count_Draculol picked off Dumb
+stefanhendriks punctured Harun_Al-RushIt
+trm shredded Coward
+0x0DEFACED sprayed Johnny_Crash
+luggable peppered Carlsberg
+you were punctured by ThE_MarD
+Count_Draculol picked off Private_Parts
+MuHaHaHa punctured trm
+Lapin_Kulta sprayed luggable
+Die_Hard peppered MuHaHaHa
+Dragon punctured Die_Hard
+Aristotles sprayed Bad_boy
+Dr00l punctured teh_masterer
+Lapin_Kulta sprayed 0x0DEFACED
+Coolbot sprayed Count_Draculol
+MrJoe peppered Dude
+Amstel peppered Staropramen
+Dr00l punctured MrJoe
+Dodging_Bullet sprayed CPLD
+Johnny_Crash picked off Dodging_Bullet
+trm shredded teh_smex
+Captain_Shrimps busted Lapin_Kulta
+Coward slashed Shootme
+trm shredded Aristotles
+Amstel busted Corporal_Clegg
+Harun_Al-RushIt busted teh_masterer
+MuHaHaHa sprayed Dragon
+Coolbot sprayed Captain_Shrimps
+Private_Parts sprayed Dr00l
+MuHaHaHa sprayed Private_Parts
+luggable sprayed Johnny_Crash
+Count_Draculol peppered Harun_Al-RushIt
+t3h_p@!|\| picked off FPGA
+Carlsberg peppered stefanhendriks
+Dude punctured Die_Hard
+0x0DEFACED sprayed Amstel
+Coward shredded MuHaHaHa
+MrJoe punctured PMB
+Dude punctured Coward
+ThE_MarD punctured trm
+Coolbot sprayed Staropramen
+Count_Draculol peppered Bad_boy
+Aristotles peppered Count_Draculol
+Captain_Shrimps peppered Coolbot
+Lapin_Kulta shredded CPLD
+Dr00l sprayed MrJoe
+teh_smex shredded Lapin_Kulta
+FPGA shredded Dodging_Bullet
+Amstel peppered Shootme
+luggable sprayed Dragon
+Die_Hard punctured Corporal_Clegg
+Amstel peppered Aristotles
+trm shredded teh_masterer
+FPGA shredded MuHaHaHa
+PMB picked off Amstel
+Captain_Shrimps peppered Coward
+PMB picked off Die_Hard
+Harun_Al-RushIt picked off Bad_boy
+ThE_MarD punctured PMB
+Staropramen shredded trm
+luggable sprayed Dr00l
+Captain_Shrimps peppered ThE_MarD
+CPLD picked off FPGA
+Carlsberg peppered 0x0DEFACED
+teh_smex shredded Dude
+Johnny_Crash picked off teh_smex
+luggable busted Count_Draculol
+CPLD picked off Carlsberg
+Shootme picked off MrJoe
+Aristotles sprayed t3h_p@!|\|
+stefanhendriks shredded luggable
+Private_Parts punctured Shootme
+MuHaHaHa shredded Corporal_Clegg
+Bad_boy shredded Dodging_Bullet
+Lapin_Kulta busted Die_Hard
+MuHaHaHa shredded Bad_boy
+trm slashed Dr00l
+Dude busted MuHaHaHa
+Private_Parts punctured teh_masterer
+Lapin_Kulta slashed Harun_Al-RushIt
+Captain_Shrimps splattered ThE_MarD
+Coward punctured teh_smex
+trm picked off Coward
+Carlsberg shredded Coolbot
+Private_Parts punctured FPGA
+Amstel peppered PMB
+0x0DEFACED peppered MrJoe
+t3h_p@!|\| busted Dude
+Carlsberg shredded Shootme
+Johnny_Crash picked off Dodging_Bullet
+0x0DEFACED peppered Dumb
+Carlsberg shredded Corporal_Clegg
+Captain_Shrimps peppered CPLD
+0x0DEFACED busted Carlsberg
+Captain_Shrimps peppered Aristotles
+Amstel peppered 0x0DEFACED
+teh_smex picked off MuHaHaHa
+Dr00l shredded t3h_p@!|\|
+Coward picked off Amstel
+ThE_MarD picked off Dragon
+trm picked off teh_masterer
+Bad_boy shredded teh_smex
+luggable shredded Johnny_Crash
+PMB sprayed Harun_Al-RushIt
+Private_Parts punctured Staropramen
+Coolbot shredded trm
+PMB sprayed stefanhendriks
+Count_Draculol busted PMB
+Dodging_Bullet peppered Die_Hard
+Lapin_Kulta busted MrJoe
+CPLD sprayed Dodging_Bullet
+CPLD sprayed FPGA
+luggable busted Coward
+Captain_Shrimps peppered Aristotles
+Dumb peppered Dude
+Count_Draculol punctured Bad_boy
+Corporal_Clegg sprayed Captain_Shrimps
+Harun_Al-RushIt punctured teh_masterer
+Dumb peppered MuHaHaHa
+trm peppered Dr00l
+Lapin_Kulta busted Private_Parts
+0x0DEFACED peppered CPLD
+Dragon sprayed Shootme
+luggable shredded t3h_p@!|\|
+Coolbot shredded Corporal_Clegg
+time remaining: 14 minutes
+0x0DEFACED busted Harun_Al-RushIt
+0x0DEFACED busted trm
+ThE_MarD picked off Die_Hard
+MrJoe sprayed Dodging_Bullet
+Carlsberg sprayed Johnny_Crash
+0x0DEFACED peppered Dumb
+stefanhendriks peppered Count_Draculol
+Dragon sprayed Carlsberg
+MrJoe sprayed PMB
+Coolbot shredded teh_masterer
+Dragon sprayed Dude
+0x0DEFACED peppered Amstel
+CPLD busted teh_smex
+Dr00l shredded Coward
+Lapin_Kulta busted Dragon
+Staropramen busted Private_Parts
+ThE_MarD busted Captain_Shrimps
+Harun_Al-RushIt peppered MrJoe
+Staropramen punctured Dodging_Bullet
+Die_Hard sprayed t3h_p@!|\|
+Shootme slashed Harun_Al-RushIt
+Carlsberg picked off Die_Hard
+Dude punctured trm
+Coolbot busted Shootme
+Corporal_Clegg picked off MuHaHaHa
+0x0DEFACED peppered Corporal_Clegg
+Johnny_Crash peppered PMB
+Dr00l shredded teh_masterer
+stefanhendriks peppered Carlsberg
+Bad_boy suicided
+Bad_boy gibbed Aristotles
+teh_smex sprayed Count_Draculol
+Johnny_Crash peppered Dr00l
+luggable shredded Dude
+0x0DEFACED peppered CPLD
+Amstel punctured luggable
+Coolbot busted FPGA
+Lapin_Kulta shredded teh_smex
+Private_Parts shredded Staropramen
+ThE_MarD picked off Coward
+MrJoe picked off Captain_Shrimps
+Dodging_Bullet peppered 0x0DEFACED
+stefanhendriks busted ThE_MarD
+Coolbot busted Dumb
+Dragon picked off MrJoe
+Amstel punctured trm
+t3h_p@!|\| peppered Harun_Al-RushIt
+Bad_boy peppered Dodging_Bullet
+t3h_p@!|\| splattered Coolbot
+stefanhendriks splattered t3h_p@!|\|
+Corporal_Clegg punctured Aristotles
+Dude picked off Die_Hard
+Carlsberg sprayed stefanhendriks
+Staropramen shredded Dragon
+Dragon gibbed Carlsberg
+Dragon gibbed Lapin_Kulta
+Count_Draculol punctured Private_Parts
+MuHaHaHa slashed Amstel
+Dr00l busted Dude
+FPGA picked off Coward
+MuHaHaHa slashed Shootme
+teh_smex picked off Dr00l
+FPGA picked off teh_masterer
+Staropramen shredded teh_smex
+MrJoe busted Count_Draculol
+ThE_MarD busted PMB
+ThE_MarD punctured Bad_boy
+luggable punctured Dodging_Bullet
+Harun_Al-RushIt peppered ThE_MarD
+Dumb busted MrJoe
+Staropramen shredded Die_Hard
+Dude picked off trm
+Coward shredded MuHaHaHa
+Carlsberg slashed Corporal_Clegg
+FPGA picked off CPLD
+Johnny_Crash peppered 0x0DEFACED
+Dude picked off Dumb
+Coolbot sprayed FPGA
+teh_masterer busted Coward
+Lapin_Kulta shredded Aristotles
+stefanhendriks picked off Harun_Al-RushIt
+Staropramen shredded Dude
+Lapin_Kulta shredded Private_Parts
+PMB shredded teh_smex
+Dragon peppered teh_masterer
+Carlsberg slashed stefanhendriks
+Bad_boy peppered Count_Draculol
+Coolbot sprayed PMB
+Lapin_Kulta shredded Captain_Shrimps
+luggable punctured Die_Hard
+Coward slashed Coolbot
+Dr00l busted CPLD
+t3h_p@!|\| busted Bad_boy
+Staropramen shredded luggable
+MuHaHaHa picked off Dodging_Bullet
+Dude picked off Harun_Al-RushIt
+FPGA sprayed MrJoe
+trm sprayed FPGA
+Dr00l shredded Shootme
+Staropramen shredded Johnny_Crash
+Dragon splattered teh_smex
+Corporal_Clegg peppered Carlsberg
+Corporal_Clegg peppered teh_masterer
+Dude picked off Corporal_Clegg
+Amstel sprayed Dumb
+Count_Draculol shredded MuHaHaHa
+Coward picked off Staropramen
+stefanhendriks peppered Lapin_Kulta
+Shootme shredded Dodging_Bullet
+Private_Parts picked off Die_Hard
+Shootme shredded trm
+Harun_Al-RushIt peppered PMB
+Johnny_Crash punctured Dr00l
+Dude picked off Private_Parts
+teh_smex shredded Bad_boy
+Harun_Al-RushIt peppered Count_Draculol
+Coward picked off Dragon
+teh_smex shredded ThE_MarD
+t3h_p@!|\| shredded CPLD
+Captain_Shrimps picked off Dude
+t3h_p@!|\| shredded Amstel
+Corporal_Clegg punctured 0x0DEFACED
+Corporal_Clegg busted MrJoe
+Harun_Al-RushIt peppered FPGA
+luggable punctured Johnny_Crash
+Carlsberg picked off Coolbot
+Dumb peppered Lapin_Kulta
+Aristotles shredded Shootme
+Captain_Shrimps picked off stefanhendriks
+Staropramen sprayed teh_smex
+PMB peppered Harun_Al-RushIt
+Aristotles shredded teh_masterer
+Private_Parts peppered Carlsberg
+MuHaHaHa picked off Coward
+Dumb busted trm
+t3h_p@!|\| busted Captain_Shrimps
+Bad_boy shredded PMB
+t3h_p@!|\| busted MuHaHaHa
+ThE_MarD sprayed Bad_boy
+CPLD busted Aristotles
+Staropramen sprayed t3h_p@!|\|
+Count_Draculol shredded ThE_MarD
+MrJoe punctured CPLD
+FPGA splattered Private_Parts
+Dude busted Corporal_Clegg
+Dumb peppered 0x0DEFACED
+you sprayed teh_smex
+Dr00l peppered FPGA
+Dumb peppered MrJoe
+Shootme peppered teh_masterer
+Staropramen sprayed Shootme
+Coward shredded Dodging_Bullet
+Count_Draculol busted luggable
+Dr00l peppered PMB
+Captain_Shrimps busted Harun_Al-RushIt
+Coolbot picked off Carlsberg
+Lapin_Kulta peppered MuHaHaHa
+you sprayed Staropramen
+Count_Draculol shredded Dr00l
+Captain_Shrimps picked off Dumb
+CPLD peppered Captain_Shrimps
+Coward shredded Bad_boy
+teh_smex peppered Count_Draculol
+Coolbot picked off teh_smex
+time remaining: 13 minutes
+teh_masterer peppered trm
+you were sprayed by Corporal_Clegg
+Shootme busted Die_Hard
+teh_masterer peppered Amstel
+Aristotles sprayed Coward
+Dragon punctured Private_Parts
+t3h_p@!|\| shredded ThE_MarD
+Coolbot picked off MrJoe
+Dodging_Bullet picked off Aristotles
+Harun_Al-RushIt punctured teh_masterer
+stefanhendriks punctured Dodging_Bullet
+MuHaHaHa peppered Dude
+teh_smex sprayed PMB
+Johnny_Crash punctured stefanhendriks
+Bad_boy sprayed 0x0DEFACED
+MuHaHaHa peppered Carlsberg
+Dr00l punctured Shootme
+t3h_p@!|\| shredded Dr00l
+teh_smex sprayed Captain_Shrimps
+Coward shredded FPGA
+Private_Parts punctured MuHaHaHa
+Coolbot picked off Dragon
+t3h_p@!|\| shredded Coward
+CPLD peppered t3h_p@!|\|
+Count_Draculol punctured CPLD
+MrJoe peppered ThE_MarD
+Lapin_Kulta peppered teh_smex
+Dumb peppered Count_Draculol
+Aristotles punctured teh_masterer
+Bad_boy sprayed Harun_Al-RushIt
+Coolbot picked off Dodging_Bullet
+Coolbot picked off luggable
+Shootme sprayed Dude
+Captain_Shrimps punctured trm
+Corporal_Clegg sprayed Private_Parts
+Coolbot picked off MrJoe
+MuHaHaHa picked off Coward
+t3h_p@!|\| picked off Captain_Shrimps
+Dragon peppered MuHaHaHa
+Die_Hard punctured Amstel
+Carlsberg sprayed PMB
+Aristotles punctured Dumb
+Carlsberg sprayed Lapin_Kulta
+Staropramen punctured Carlsberg
+Harun_Al-RushIt punctured Count_Draculol
+Dodging_Bullet punctured Dr00l
+Bad_boy sprayed CPLD
+stefanhendriks punctured FPGA
+Bad_boy sprayed Johnny_Crash
+Aristotles punctured ThE_MarD
+trm peppered teh_smex
+Dragon peppered Harun_Al-RushIt
+Private_Parts sprayed 0x0DEFACED
+t3h_p@!|\| picked off Dodging_Bullet
+Aristotles punctured Dragon
+stefanhendriks busted teh_masterer
+MrJoe shredded trm
+Shootme sprayed Staropramen
+Shootme sprayed Aristotles
+Coolbot picked off MrJoe
+Lapin_Kulta shredded MuHaHaHa
+Coolbot picked off PMB
+Captain_Shrimps peppered t3h_p@!|\|
+Carlsberg shredded Lapin_Kulta
+Coward picked off Dr00l
+teh_smex picked off Shootme
+stefanhendriks punctured Coward
+Dude punctured Corporal_Clegg
+ThE_MarD sprayed Captain_Shrimps
+Harun_Al-RushIt peppered Amstel
+CPLD picked off Bad_boy
+Dude busted Private_Parts
+Coolbot picked off ThE_MarD
+Die_Hard busted Count_Draculol
+teh_masterer sprayed Dude
+Carlsberg shredded teh_smex
+stefanhendriks punctured CPLD
+Dumb busted teh_masterer
+luggable busted trm
+MuHaHaHa shredded stefanhendriks
+MrJoe peppered Johnny_Crash
+MrJoe peppered luggable
+Lapin_Kulta shredded Staropramen
+0x0DEFACED picked off Dragon
+Corporal_Clegg shredded Harun_Al-RushIt
+Lapin_Kulta shredded FPGA
+Dumb picked off 0x0DEFACED
+Dodging_Bullet shredded Coward
+Corporal_Clegg shredded MuHaHaHa
+ThE_MarD shredded Dumb
+Shootme sprayed Dude
+Private_Parts picked off Bad_boy
+CPLD punctured teh_smex
+Aristotles shredded MrJoe
+Dr00l peppered ThE_MarD
+Private_Parts picked off Dr00l
+PMB busted Corporal_Clegg
+stefanhendriks peppered Die_Hard
+Aristotles shredded Shootme
+Staropramen shredded Count_Draculol
+Coolbot busted Aristotles
+FPGA peppered Dodging_Bullet
+teh_masterer shredded Carlsberg
+Captain_Shrimps picked off trm
+MuHaHaHa shredded Private_Parts
+Harun_Al-RushIt slashed FPGA
+stefanhendriks peppered 0x0DEFACED
+Coward picked off PMB
+Captain_Shrimps picked off Dragon
+MuHaHaHa busted Captain_Shrimps
+Bad_boy peppered Coward
+Dumb sprayed Lapin_Kulta
+Harun_Al-RushIt sprayed teh_masterer
+stefanhendriks peppered Dude
+luggable punctured teh_smex
+ThE_MarD punctured Coolbot
+Die_Hard peppered MuHaHaHa
+Amstel busted Bad_boy
+trm punctured Staropramen
+t3h_p@!|\| shredded Die_Hard
+MrJoe picked off CPLD
+Count_Draculol sprayed MrJoe
+Dumb sprayed trm
+Johnny_Crash punctured FPGA
+Corporal_Clegg peppered stefanhendriks
+Dragon picked off Harun_Al-RushIt
+Dr00l punctured ThE_MarD
+PMB sprayed luggable
+Aristotles peppered Corporal_Clegg
+Captain_Shrimps shredded Shootme
+t3h_p@!|\| busted Dr00l
+Lapin_Kulta punctured Dodging_Bullet
+Private_Parts picked off Aristotles
+Bad_boy sprayed Coward
+Dragon picked off Private_Parts
+teh_smex punctured MuHaHaHa
+FPGA picked off Die_Hard
+teh_masterer shredded Dude
+0x0DEFACED shredded Johnny_Crash
+stefanhendriks sprayed teh_masterer
+luggable peppered PMB
+FPGA busted Count_Draculol
+0x0DEFACED shredded MrJoe
+Staropramen slashed Amstel
+CPLD peppered trm
+teh_smex punctured Shootme
+Corporal_Clegg peppered 0x0DEFACED
+ThE_MarD sprayed FPGA
+luggable peppered Corporal_Clegg
+CPLD peppered Bad_boy
+Captain_Shrimps shredded Harun_Al-RushIt
+t3h_p@!|\| busted Carlsberg
+luggable peppered Dumb
+Staropramen slashed Dr00l
+Dude punctured luggable
+Lapin_Kulta busted Captain_Shrimps
+Coward picked off Dodging_Bullet
+Private_Parts busted Coward
+CPLD peppered ThE_MarD
+stefanhendriks sprayed t3h_p@!|\|
+MrJoe peppered Aristotles
+Shootme picked off Staropramen
+MuHaHaHa shredded Die_Hard
+teh_masterer busted teh_smex
+MrJoe peppered Dude
+Corporal_Clegg peppered Coolbot
+Johnny_Crash peppered trm
+Amstel sprayed CPLD
+time remaining: 12 minutes
+Corporal_Clegg peppered PMB
+Dodging_Bullet punctured MrJoe
+Johnny_Crash peppered stefanhendriks
+Harun_Al-RushIt sprayed Shootme
+Coward sprayed Bad_boy
+Carlsberg peppered Dodging_Bullet
+Corporal_Clegg peppered Johnny_Crash
+Corporal_Clegg peppered FPGA
+Captain_Shrimps sprayed MuHaHaHa
+Captain_Shrimps sprayed Amstel
+Carlsberg peppered Dr00l
+Corporal_Clegg peppered Carlsberg
+t3h_p@!|\| picked off Aristotles
+Harun_Al-RushIt sprayed teh_smex
+trm sprayed Die_Hard
+trm sprayed Coward
+Corporal_Clegg splattered ThE_MarD
+Dude shredded trm
+0x0DEFACED picked off teh_masterer
+luggable peppered Harun_Al-RushIt
+PMB picked off Dude
+Bad_boy sprayed PMB
+0x0DEFACED picked off Count_Draculol
+Staropramen busted Dumb
+t3h_p@!|\| picked off luggable
+0x0DEFACED busted CPLD
+Captain_Shrimps sprayed Bad_boy
+Private_Parts picked off Dodging_Bullet
+Dr00l peppered t3h_p@!|\|
+Coolbot peppered MuHaHaHa
+0x0DEFACED picked off Dragon
+Private_Parts picked off MrJoe
+Amstel picked off Die_Hard
+trm shredded teh_smex
+Corporal_Clegg peppered Coolbot
+stefanhendriks peppered 0x0DEFACED
+Dr00l peppered Coward
+teh_masterer slashed Carlsberg
+FPGA picked off Captain_Shrimps
+ThE_MarD peppered Aristotles
+PMB shredded Dude
+Dumb sprayed teh_masterer
+CPLD picked off FPGA
+PMB shredded Harun_Al-RushIt
+MrJoe shredded MuHaHaHa
+Dodging_Bullet shredded Staropramen
+Dumb sprayed trm
+Private_Parts picked off Dr00l
+Lapin_Kulta busted MrJoe
+CPLD picked off Die_Hard
+teh_smex busted ThE_MarD
+PMB shredded Bad_boy
+Amstel busted Corporal_Clegg
+Coward sprayed Private_Parts
+CPLD picked off Coward
+Dude picked off teh_smex
+Harun_Al-RushIt busted PMB
+Harun_Al-RushIt punctured Aristotles
+luggable shredded Dude
+Johnny_Crash sprayed FPGA
+Amstel slashed Harun_Al-RushIt
+Shootme punctured Captain_Shrimps
+Staropramen picked off Dodging_Bullet
+Dragon slashed t3h_p@!|\|
+MrJoe shredded Carlsberg
+trm picked off luggable
+stefanhendriks slashed Amstel
+Dragon punctured Johnny_Crash
+Dumb sprayed 0x0DEFACED
+stefanhendriks peppered Dragon
+Staropramen busted Lapin_Kulta
+Corporal_Clegg sprayed Die_Hard
+CPLD picked off MuHaHaHa
+Shootme slashed teh_smex
+Staropramen picked off Dr00l
+MrJoe shredded Dodging_Bullet
+Shootme punctured MrJoe
+stefanhendriks peppered Staropramen
+Harun_Al-RushIt sprayed ThE_MarD
+Private_Parts peppered trm
+luggable picked off teh_masterer
+Bad_boy shredded Dude
+Bad_boy shredded Corporal_Clegg
+0x0DEFACED shredded Coward
+0x0DEFACED shredded PMB
+Private_Parts peppered stefanhendriks
+FPGA busted Harun_Al-RushIt
+Dumb busted Private_Parts
+Dragon shredded Bad_boy
+Johnny_Crash shredded CPLD
+Dr00l picked off Shootme
+FPGA peppered Aristotles
+teh_smex punctured FPGA
+Dumb busted Lapin_Kulta
+t3h_p@!|\| punctured MrJoe
+Carlsberg picked off teh_smex
+Dude slashed Die_Hard
+Private_Parts punctured Dodging_Bullet
+teh_masterer splattered Coward
+Corporal_Clegg picked off Captain_Shrimps
+Bad_boy peppered MuHaHaHa
+PMB peppered Coolbot
+Dude sprayed Corporal_Clegg
+Dragon shredded Dr00l
+Harun_Al-RushIt punctured trm
+Count_Draculol picked off Amstel
+Dragon shredded PMB
+Dragon shredded teh_masterer
+stefanhendriks picked off ThE_MarD
+CPLD shredded 0x0DEFACED
+Private_Parts punctured Shootme
+Bad_boy peppered Harun_Al-RushIt
+Staropramen sprayed Dude
+teh_smex peppered stefanhendriks
+luggable picked off Dragon
+Private_Parts punctured MrJoe
+Carlsberg picked off FPGA
+teh_smex peppered Private_Parts
+Corporal_Clegg picked off teh_smex
+Coward picked off Aristotles
+Die_Hard peppered Dodging_Bullet
+Coolbot punctured Bad_boy
+Johnny_Crash shredded Count_Draculol
+Johnny_Crash shredded CPLD
+Coward picked off Johnny_Crash
+Carlsberg picked off Corporal_Clegg
+trm peppered Die_Hard
+Shootme picked off trm
+Dr00l punctured luggable
+Coward picked off t3h_p@!|\|
+Lapin_Kulta sprayed Staropramen
+Lapin_Kulta sprayed teh_masterer
+MrJoe punctured Harun_Al-RushIt
+Captain_Shrimps shredded PMB
+Dr00l punctured Coward
+Shootme picked off 0x0DEFACED
+teh_smex shredded Shootme
+Lapin_Kulta sprayed ThE_MarD
+Private_Parts punctured MuHaHaHa
+Count_Draculol picked off Dr00l
+FPGA peppered Dude
+Dragon picked off Bad_boy
+Dodging_Bullet sprayed trm
+Dumb busted MrJoe
+Carlsberg picked off Coolbot
+Johnny_Crash peppered Die_Hard
+Private_Parts punctured Carlsberg
+luggable shredded Aristotles
+Amstel shredded PMB
+Lapin_Kulta sprayed t3h_p@!|\|
+FPGA peppered Dragon
+Staropramen shredded FPGA
+0x0DEFACED peppered teh_masterer
+Captain_Shrimps shredded Harun_Al-RushIt
+luggable shredded Coward
+ThE_MarD picked off Dodging_Bullet
+CPLD busted Captain_Shrimps
+Dude picked off teh_smex
+Private_Parts punctured 0x0DEFACED
+Count_Draculol picked off Corporal_Clegg
+Amstel shredded MuHaHaHa
+Shootme picked off Dude
+stefanhendriks sprayed Lapin_Kulta
+time remaining: 11 minutes
+ThE_MarD picked off Dr00l
+Staropramen shredded ThE_MarD
+PMB punctured Shootme
+luggable shredded Dumb
+Bad_boy peppered trm
+MrJoe picked off CPLD
+FPGA busted Private_Parts
+Amstel shredded FPGA
+Dodging_Bullet peppered Dragon
+Staropramen shredded t3h_p@!|\|
+Corporal_Clegg peppered Dodging_Bullet
+Coolbot peppered PMB
+Carlsberg peppered Aristotles
+Lapin_Kulta busted Count_Draculol
+Corporal_Clegg peppered Bad_boy
+0x0DEFACED peppered teh_smex
+Amstel busted 0x0DEFACED
+Lapin_Kulta picked off MuHaHaHa
+Captain_Shrimps sprayed Corporal_Clegg
+Coward busted Die_Hard
+MrJoe picked off Harun_Al-RushIt
+Amstel busted Carlsberg
+stefanhendriks busted trm
+t3h_p@!|\| shredded teh_masterer
+Dragon picked off MrJoe
+stefanhendriks busted Shootme
+Dumb busted Dude
+Staropramen shredded FPGA
+Johnny_Crash peppered luggable
+Dr00l picked off Dodging_Bullet
+Staropramen busted Coolbot
+Bad_boy splattered CPLD
+Johnny_Crash peppered Aristotles
+Dragon picked off Dr00l
+Count_Draculol sprayed Private_Parts
+Staropramen shredded Bad_boy
+Count_Draculol sprayed PMB
+Lapin_Kulta picked off Corporal_Clegg
+Johnny_Crash peppered MuHaHaHa
+Die_Hard shredded teh_smex
+Staropramen busted stefanhendriks
+MrJoe shredded ThE_MarD
+trm shredded Captain_Shrimps
+FPGA shredded Johnny_Crash
+Harun_Al-RushIt picked off teh_masterer
+Coward punctured Harun_Al-RushIt
+Dodging_Bullet picked off MrJoe
+Dumb busted 0x0DEFACED
+Coolbot shredded Dude
+Lapin_Kulta picked off t3h_p@!|\|
+PMB punctured Dodging_Bullet
+Dragon busted Coward
+CPLD shredded trm
+MuHaHaHa shredded Count_Draculol
+luggable sprayed FPGA
+Dumb picked off Lapin_Kulta
+Dragon picked off Dumb
+Carlsberg picked off luggable
+Shootme picked off PMB
+stefanhendriks peppered Private_Parts
+you sprayed Corporal_Clegg
+Aristotles punctured teh_smex
+ThE_MarD picked off Staropramen
+Carlsberg picked off Dr00l
+Dragon picked off Coolbot
+you sprayed Shootme
+MrJoe shredded 0x0DEFACED
+Amstel busted t3h_p@!|\|
+CPLD slashed Harun_Al-RushIt
+MrJoe shredded Dodging_Bullet
+Coward shredded Die_Hard
+Dragon busted teh_masterer
+Dumb shredded MuHaHaHa
+ThE_MarD picked off MrJoe
+CPLD shredded FPGA
+you sprayed Amstel
+Carlsberg picked off stefanhendriks
+Dragon picked off Dude
+ThE_MarD picked off Carlsberg
+CPLD shredded trm
+teh_smex busted Bad_boy
+luggable peppered Lapin_Kulta
+Dr00l punctured teh_smex
+Dragon picked off Count_Draculol
+ThE_MarD picked off Dragon
+0x0DEFACED picked off ThE_MarD
+Staropramen peppered Dr00l
+Die_Hard peppered Private_Parts
+you were picked off by Harun_Al-RushIt
+Dumb busted Die_Hard
+Staropramen peppered Corporal_Clegg
+Coolbot shredded teh_masterer
+Coward shredded 0x0DEFACED
+t3h_p@!|\| sprayed Dodging_Bullet
+Harun_Al-RushIt picked off Shootme
+Amstel slashed Dumb
+Staropramen peppered Harun_Al-RushIt
+FPGA sprayed MuHaHaHa
+Bad_boy punctured PMB
+stefanhendriks shredded luggable
+teh_smex shredded Amstel
+Coolbot shredded Captain_Shrimps
+Bad_boy punctured teh_smex
+Lapin_Kulta peppered t3h_p@!|\|
+Lapin_Kulta peppered Johnny_Crash
+trm picked off Count_Draculol
+Dr00l busted Carlsberg
+MrJoe busted Bad_boy
+Private_Parts picked off trm
+Lapin_Kulta peppered Die_Hard
+trm gibbed Private_Parts
+Dude punctured Corporal_Clegg
+Coolbot shredded FPGA
+Dumb picked off Aristotles
+Shootme busted MrJoe
+Dodging_Bullet punctured Coolbot
+Lapin_Kulta peppered Dude
+teh_masterer punctured Dr00l
+MuHaHaHa shredded ThE_MarD
+Dragon sprayed Harun_Al-RushIt
+CPLD busted stefanhendriks
+0x0DEFACED gibbed teh_masterer
+Dumb slashed CPLD
+teh_smex picked off Coward
+0x0DEFACED peppered teh_smex
+luggable peppered Shootme
+PMB punctured 0x0DEFACED
+Private_Parts peppered PMB
+Carlsberg picked off Dodging_Bullet
+Dumb picked off Private_Parts
+Die_Hard peppered MuHaHaHa
+t3h_p@!|\| picked off Bad_boy
+Staropramen slashed Coolbot
+Aristotles slashed Johnny_Crash
+luggable peppered trm
+Dude sprayed Corporal_Clegg
+stefanhendriks peppered Dude
+t3h_p@!|\| picked off ThE_MarD
+luggable peppered Captain_Shrimps
+CPLD busted Carlsberg
+MrJoe shredded Dr00l
+Shootme picked off teh_masterer
+Dragon sprayed Amstel
+Aristotles picked off MrJoe
+Private_Parts sprayed Dodging_Bullet
+Shootme picked off Harun_Al-RushIt
+Die_Hard peppered Coward
+Lapin_Kulta peppered teh_smex
+stefanhendriks peppered Count_Draculol
+CPLD shredded MuHaHaHa
+Coolbot splattered PMB
+trm shredded Bad_boy
+Coolbot splattered Shootme
+ThE_MarD peppered Private_Parts
+Johnny_Crash peppered ThE_MarD
+Aristotles picked off Die_Hard
+Coolbot peppered Dragon
+Dumb picked off Aristotles
+Lapin_Kulta peppered Johnny_Crash
+Coolbot peppered Dumb
+MrJoe peppered trm
+luggable peppered teh_smex
+Lapin_Kulta peppered Corporal_Clegg
+Dude picked off CPLD
+MuHaHaHa sprayed Coward
+stefanhendriks peppered FPGA
+time remaining: 10 minutes
+MrJoe peppered 0x0DEFACED
+Die_Hard peppered Bad_boy
+Count_Draculol picked off Shootme
+PMB sprayed Harun_Al-RushIt
+Dr00l shredded Dude
+Dragon picked off MrJoe
+MuHaHaHa sprayed teh_masterer
+ThE_MarD shredded Die_Hard
+Johnny_Crash shredded MuHaHaHa
+stefanhendriks peppered Amstel
+luggable peppered ThE_MarD
+Count_Draculol picked off Carlsberg
+Dumb peppered Dr00l
+Staropramen peppered Count_Draculol
+Dodging_Bullet picked off PMB
+Johnny_Crash shredded Lapin_Kulta
+Captain_Shrimps punctured stefanhendriks
+Johnny_Crash shredded Corporal_Clegg
+luggable peppered Captain_Shrimps
+Staropramen peppered Johnny_Crash
+Dumb peppered trm
+Dragon picked off Aristotles
+Shootme busted t3h_p@!|\|
+CPLD shredded Dodging_Bullet
+teh_smex shredded Dumb
+Dude busted Coward
+teh_masterer sprayed teh_smex
+MrJoe peppered Dude
+Count_Draculol punctured CPLD
+Bad_boy sprayed FPGA
+luggable peppered MrJoe
+MuHaHaHa picked off stefanhendriks
+Bad_boy suicided
+Corporal_Clegg punctured Private_Parts
+Dr00l shredded ThE_MarD
+Harun_Al-RushIt peppered Shootme
+Amstel picked off trm
+luggable peppered Coolbot
+luggable peppered Harun_Al-RushIt
+Aristotles shredded teh_masterer
+MuHaHaHa picked off Dr00l
+Dodging_Bullet punctured MuHaHaHa
+Dragon picked off 0x0DEFACED
+Captain_Shrimps busted luggable
+Staropramen peppered Die_Hard
+Amstel picked off teh_smex
+Coward peppered Staropramen
+Private_Parts shredded MrJoe
+CPLD shredded Carlsberg
+PMB picked off Coward
+Shootme splattered t3h_p@!|\|
+Bad_boy punctured ThE_MarD
+PMB picked off Dodging_Bullet
+Dr00l shredded Dude
+stefanhendriks peppered PMB
+Coolbot peppered teh_masterer
+Corporal_Clegg punctured Johnny_Crash
+Captain_Shrimps picked off Harun_Al-RushIt
+Shootme peppered FPGA
+Bad_boy punctured Count_Draculol
+Die_Hard punctured Private_Parts
+stefanhendriks peppered Die_Hard
+Dumb busted Aristotles
+teh_smex shredded Dr00l
+Coward sprayed Shootme
+Carlsberg peppered MuHaHaHa
+t3h_p@!|\| sprayed Coward
+stefanhendriks peppered Coolbot
+Dude shredded trm
+teh_smex shredded Dumb
+luggable picked off Dude
+Dragon picked off ThE_MarD
+Captain_Shrimps picked off PMB
+Johnny_Crash shredded teh_smex
+Corporal_Clegg gibbed Bad_boy
+Count_Draculol shredded Dragon
+Staropramen suicided
+Count_Draculol shredded Lapin_Kulta
+FPGA picked off Dodging_Bullet
+luggable picked off Johnny_Crash
+Amstel picked off Die_Hard
+Carlsberg peppered 0x0DEFACED
+Coolbot peppered Count_Draculol
+luggable picked off Shootme
+Coward picked off MuHaHaHa
+Captain_Shrimps busted stefanhendriks
+Coolbot peppered Private_Parts
+Dude slashed Harun_Al-RushIt
+Amstel busted Aristotles
+CPLD shredded FPGA
+CPLD shredded Dr00l
+MrJoe punctured t3h_p@!|\|
+Coward picked off Dude
+Dodging_Bullet peppered CPLD
+teh_smex sprayed trm
+Coward picked off Corporal_Clegg
+Coolbot peppered Dodging_Bullet
+Lapin_Kulta sprayed PMB
+Dragon busted Bad_boy
+Johnny_Crash sprayed teh_smex
+Carlsberg peppered Dumb
+teh_masterer picked off ThE_MarD
+Count_Draculol peppered teh_masterer
+Dragon punctured Shootme
+Johnny_Crash sprayed Coward
+Carlsberg peppered Count_Draculol
+t3h_p@!|\| peppered MrJoe
+Lapin_Kulta sprayed Johnny_Crash
+Private_Parts peppered MuHaHaHa
+Captain_Shrimps picked off luggable
+Coolbot peppered Die_Hard
+Dodging_Bullet picked off 0x0DEFACED
+Dude sprayed Harun_Al-RushIt
+FPGA picked off Carlsberg
+trm peppered Private_Parts
+Dumb picked off Dodging_Bullet
+PMB busted Dragon
+CPLD sprayed Dr00l
+Amstel busted Dude
+PMB shredded trm
+Coolbot peppered Captain_Shrimps
+PMB shredded Bad_boy
+stefanhendriks picked off Coolbot
+Shootme peppered teh_smex
+Dumb picked off teh_masterer
+t3h_p@!|\| peppered FPGA
+Aristotles shredded ThE_MarD
+Johnny_Crash shredded Shootme
+Count_Draculol busted Staropramen
+MuHaHaHa sprayed MrJoe
+stefanhendriks picked off Aristotles
+Lapin_Kulta sprayed t3h_p@!|\|
+Count_Draculol busted MuHaHaHa
+Carlsberg picked off Dumb
+Captain_Shrimps punctured Lapin_Kulta
+trm sprayed 0x0DEFACED
+Coward busted stefanhendriks
+Johnny_Crash shredded Dr00l
+PMB busted Die_Hard
+Johnny_Crash shredded Harun_Al-RushIt
+Amstel picked off Private_Parts
+CPLD sprayed Count_Draculol
+ThE_MarD picked off CPLD
+teh_masterer busted teh_smex
+Dude picked off MrJoe
+Coward busted Corporal_Clegg
+Coolbot picked off Johnny_Crash
+Dumb peppered trm
+luggable suicided
+Coolbot picked off PMB
+Amstel busted FPGA
+Amstel picked off Bad_boy
+Staropramen picked off MuHaHaHa
+Shootme peppered ThE_MarD
+teh_masterer picked off Coolbot
+Private_Parts peppered Dodging_Bullet
+0x0DEFACED picked off Aristotles
+Amstel picked off Shootme
+teh_smex picked off Coward
+teh_masterer busted Amstel
+CPLD picked off Captain_Shrimps
+Carlsberg picked off Dumb
+Dragon peppered Dude
+Private_Parts peppered Count_Draculol
+time remaining: 9 minutes
+Lapin_Kulta peppered 0x0DEFACED
+Johnny_Crash peppered Die_Hard
+Private_Parts peppered stefanhendriks
+MuHaHaHa sprayed teh_masterer
+Staropramen picked off MrJoe
+Carlsberg picked off MuHaHaHa
+Dr00l picked off PMB
+luggable sprayed Dodging_Bullet
+Bad_boy peppered Carlsberg
+Amstel picked off trm
+Corporal_Clegg shredded Private_Parts
+Dragon peppered Harun_Al-RushIt
+Lapin_Kulta peppered Aristotles
+Shootme punctured t3h_p@!|\|
+Corporal_Clegg busted ThE_MarD
+Johnny_Crash peppered FPGA
+Die_Hard peppered Dragon
+Count_Draculol picked off Coward
+Lapin_Kulta peppered Die_Hard
+Amstel picked off Dr00l
+stefanhendriks punctured Coolbot
+Staropramen picked off Count_Draculol
+Corporal_Clegg shredded Dumb
+0x0DEFACED shredded Staropramen
+Johnny_Crash busted teh_masterer
+Lapin_Kulta peppered MuHaHaHa
+Captain_Shrimps shredded Bad_boy
+Dude slashed MrJoe
+teh_smex picked off Carlsberg
+Aristotles shredded trm
+Corporal_Clegg shredded 0x0DEFACED
+Coward splattered Dude
+Lapin_Kulta peppered Johnny_Crash
+Lapin_Kulta peppered PMB
+writing to file: profile\config\init.cfg
+writing to file: profile\config\servers.cfg
+writing to file: profile\config\pcksources.cfg
+writing to file: profile\config\saved.cfg
+writing to file: profile\config\history
+writing to file: profile\config\mapmodelattributes.cfg
+writing to file: profile\private\entropy.dat
+stored backup of unsaved edits on map 'br_arena'; to restore, type "/xmap_restore"
+writing to file: profile\mapediting\xmaps\(backup)gameend.xmap
+bot Dodging_Bullet disconnected
+bot teh_smex disconnected
+bot trm disconnected
+bot teh_masterer disconnected
+bot MrJoe disconnected
+bot Die_Hard disconnected
+bot Coward disconnected
+bot Dude disconnected
+bot MuHaHaHa disconnected
+bot Harun_Al-RushIt disconnected
+bot Dr00l disconnected
+bot PMB disconnected
+bot Shootme disconnected
+bot Bad_boy disconnected
+bot ThE_MarD disconnected
+bot Count_Draculol disconnected
+bot FPGA disconnected
+bot Aristotles disconnected
+bot Corporal_Clegg disconnected
+bot Private_Parts disconnected
+bot 0x0DEFACED disconnected
+bot Captain_Shrimps disconnected
+bot CPLD disconnected
+bot t3h_p@!|\| disconnected
+bot Carlsberg disconnected
+bot Dumb disconnected
+bot Johnny_Crash disconnected
+bot luggable disconnected
+bot Dragon disconnected
+bot Coolbot disconnected
+bot stefanhendriks disconnected
+bot Amstel disconnected
+bot Staropramen disconnected
+bot Lapin_Kulta disconnected

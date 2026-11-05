@@ -1,6 +1,7 @@
 // world.cpp: core map management stuff
 
 #include "cube.h"
+#include "gltfmodel.h"
 #include "bot/bot.h"
 
 
@@ -790,6 +791,7 @@ void mapenlarge()  { if(empty_world(-1, false)) addmsg(SV_NEWMAP, "ri", -1); }
 void mapshrink()   { if(empty_world(-2, false)) addmsg(SV_NEWMAP, "ri", -2); }
 void newmap(int *i)
 {
+    if (gltfmapmodel) { delete gltfmapmodel; gltfmapmodel = NULL; }
     if(m_botmode) { conoutf("newmap not supported in bot mode"); return; }
     if(empty_world(*i, false))
     {

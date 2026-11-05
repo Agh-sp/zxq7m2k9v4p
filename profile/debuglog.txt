@@ -1,0 +1,32 @@
+loadgltfmap called: packages/models/br_arena.gltf
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+loadgltfmap called: packages/models/br_arena.gltf
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+loadgltfmap called: packages/models/br_arena.gltf
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+loadgltfmap called: packages/models/br_arena.gltf
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)
+gltfmodel::load called for packages/models/br_arena.gltf
+gltf: loaded packages/models/br_arena.gltf (1 submeshes)

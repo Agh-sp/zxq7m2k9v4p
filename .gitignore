@@ -1,0 +1,15 @@
+.vs/
+**/.vs/
+**/Release/
+**/Debug/
+**/.libs/
+*.obj
+*.o
+*.iobj
+*.ipch
+*.pdb
+*.a
+*.tlog/
+*.lastbuildstate
+*.unsuccessfulbuild
+*.exe.recipe

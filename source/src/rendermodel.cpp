@@ -10,6 +10,7 @@ mapmodelattributes loadingattributes;
 #include "vertmodel.h"
 #include "md2.h"
 #include "md3.h"
+#include "gltfmodel.h"
 
 #define checkmdl if(!loadingmodel) { conoutf("not loading a model"); flagmapconfigerror(LWW_MODELERR); scripterr(); return; }
 
@@ -387,15 +388,21 @@ model *loadmodel(const char *name, int i, bool trydl)     // load model by name 
             delete m;
             m = new md3(name);                  // try md3
             loadingmodel = m;
-            if(!m->load())                      // md3 didn't load -> we don't have that model
+            if(!m->load())                      // md3 didn't load -> try gltf
             {
                 delete m;
-                m = loadingmodel = NULL;
-                if(trydl && !strncmp(name, mmpath, strlen(mmpath))) requirepackage(PCK_MAPMODEL, name);
-                else
+                m = new gltfmodel(name);         // try gltf
+                loadingmodel = m;
+                if(!m->load())                   // gltf didn't load -> we don't have that model
                 {
-                    if(!silentmodelloaderror) conoutf("\f3failed to load model %s", name);
-                    mdlnotfound.access(newstring(name), 0);  // do not search for this name again
+                    delete m;
+                    m = loadingmodel = NULL;
+                    if(trydl && !strncmp(name, mmpath, strlen(mmpath))) requirepackage(PCK_MAPMODEL, name);
+                    else
+                    {
+                        if(!silentmodelloaderror) conoutf("\f3failed to load model %s", name);
+                        mdlnotfound.access(newstring(name), 0);  // do not search for this name again
+                    }
                 }
             }
         }
